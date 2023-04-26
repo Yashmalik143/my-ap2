@@ -15,7 +15,7 @@ class Form2 extends Component {
     if(!this.state.name.includes("a") && this.state.password.length < 5)
     {
         this.setState({nameError:"Invalid Name "})
-        this.setState({passError:"Password Length is less Than 5"})
+        this.setState({passError:"Password Length is less Than 5 "})
     }
     else if(this.state.password.length< 5)
     {
