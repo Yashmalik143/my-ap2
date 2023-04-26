@@ -23,7 +23,7 @@ class Form2 extends Component {
     }
     else if(!this.state.name.includes("a"))
     {
-        this.setState({nameError:"Invalid Name"})
+        this.setState({nameError:"Invalid Name "})
 
     }
     else{
