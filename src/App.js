@@ -4,6 +4,7 @@ import MyClass from './Class';
 import Form  from './Form';
 import Form2 from './Form2';
 import Hoc from './Hoc';
+import ApiCall from './ApiCall';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
      <Form />
      <Form2 />
      <Hoc/>
+     <ApiCall />
     </div>
   );
 }
