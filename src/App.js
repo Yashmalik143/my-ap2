@@ -15,6 +15,7 @@ function App() {
    
     <div className="App">
        <Router>
+        
         <ul>
           <li><Link to="/Class">Home</Link></li>
           <li><Link to="/Form">Form</Link></li>
