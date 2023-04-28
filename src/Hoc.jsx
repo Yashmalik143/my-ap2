@@ -10,7 +10,7 @@ function hoc(){
     
     </> )
 } 
-function Counter(){
+function Counter(){ 
 
     const [count,setCount] = useState(0)
 
