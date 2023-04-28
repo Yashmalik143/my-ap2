@@ -4,13 +4,11 @@ import MyClass from './Class';
 import Form  from './Form';
 import Form2 from './Form2';
 import Hoc from './Hoc';
-import react_router from './react_router';
-// router
-import { ReactDOM } from 'react';
-import { BrowserRouter as Router ,Route,Link,Routes} from 'react-router-dom';
-
-// previous
+import ApiCall from './PostApi';
+import PostAPi from './ApiCall';
+import { useState } from 'react';
 function App() {
+
   return (
    
     <div className="App">
