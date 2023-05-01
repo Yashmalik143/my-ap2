@@ -7,6 +7,7 @@ import Hoc from './Hoc';
 import ApiCall from './PostApi';
 import PostAPi from './ApiCall';
 import { useState } from 'react';
+import Toggle from './ToggleImage';
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
      <Hoc/>
      <ApiCall/>
      <PostAPi/>
+     <Toggle/>
     </div>
   );
 }
