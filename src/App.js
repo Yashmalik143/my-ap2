@@ -16,18 +16,22 @@ function App() {
 
   return (
    
-    <>
-      <MyClass />
-     <Form />
-     <Form2 />
-     <Hoc/>
-     <ApiCall/>
-     <PostAPi/>
-     <Toggle/>
-     <form_hooks/>
-     <Ref/>
-     <Memo/>
-    </>
+    <div className="App">
+       <Router>
+        
+        <ul>
+          <li><Link to="/Class">Home</Link></li>
+          <li><Link to="/Form">Form</Link></li>
+          <li><Link to="/Form2">Form2</Link></li>
+        </ul>
+        <Routes>
+        <Route path='/Class'  Component={MyClass}  />
+        <Route path='/Form'  Component={Form}  />
+        <Route path='/Form2'  Component={Form2}  />
+        </Routes>
+        </Router>
+      
+    </div>
   );
 }
 
