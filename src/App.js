@@ -8,8 +8,10 @@ import ApiCall from './PostApi';
 import PostAPi from './ApiCall';
 import { useState } from 'react';
 import Toggle from './ToggleImage';
+import { Fname } from './ToggleImage';
 function App() {
-
+  const s = Fname;
+  console.log(s)
   return (
    
     <div className="App">
