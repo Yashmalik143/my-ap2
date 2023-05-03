@@ -8,13 +8,15 @@ import ApiCall from './PostApi';
 import PostAPi from './ApiCall';
 import { useState } from 'react';
 import Toggle from './ToggleImage';
-import { Fname } from './ToggleImage';
+import form_hooks from './form_using_hooks';
+import Ref from './useRef';
+import Memo from './useMemo';
 function App() {
-  const s = Fname;
-  console.log(s)
+ 
+
   return (
    
-    <div className="App">
+    <>
       <MyClass />
      <Form />
      <Form2 />
@@ -22,7 +24,10 @@ function App() {
      <ApiCall/>
      <PostAPi/>
      <Toggle/>
-    </div>
+     <form_hooks/>
+     <Ref/>
+     <Memo/>
+    </>
   );
 }
 

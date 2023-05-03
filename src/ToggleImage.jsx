@@ -27,6 +27,5 @@ return(
 
 };
 export default Toggle;
-export {Fname};
 
 
